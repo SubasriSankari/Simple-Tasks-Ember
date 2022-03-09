@@ -1,5 +1,8 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h3>Click to view Surprise!!</h3>
+<button {{action "view"}}>show/hide</button>
+
+{{#if hideMe}}
+    <h2>It's Zoho Corporation</h2>
+{{/if}}
 
 {{outlet}}

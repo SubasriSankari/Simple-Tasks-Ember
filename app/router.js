@@ -7,4 +7,8 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
+  this.route('zoho-corporation');
+  this.route('file-upload');
+  this.route('chat');
+  this.route('bmi-calculator');
 });
